@@ -3,5 +3,5 @@ Next I formatted the body starting with "fieldset" and "legend" which created a 
 After that I used the "radio" input type for the bonus to ask the user "How did they find our page?" and this created options for them to select from.
 Lastly, I created a submit button with the value of Send to finalize and submit the form.
 Next I created a table using the "table" with a border that equals 2 and I used "h2" for a header that wasn't too big for my table. I used "tr" and the "th" to construct the tables rows and headers. Then I used "td" to enter the data for my table.
-After the table, I created a navigation bar using <nav> and an unordered list with <ul>. I used "a href="" to reference the button with the corresponding IDs.
+After the table, I created a navigation bar using "nav" and an unordered list with "ul". I used "a href="" to reference the button with the corresponding IDs.
 Finally, I uploaded an image and rounded it off. The image is my favorite bootcamp ever! Run it to find out! 
