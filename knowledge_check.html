@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 4 HTML Assignment</title>
+</head>
+<body>
+    <form action="#" method="POST">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required  placeholder="Enter your name">
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email">
+            <br><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required placeholder="Write your message">
+        </textarea>
+            <br><br>
+
+            <!--Bonus: Added radio button-->
+            <label for="find">How did you find our page?</label>
+            <input type="radio" id="google" name="find" value="google">Google
+            <input type="radio" id="social media" name="find" value="social media">Social Media 
+            <input type="radio" id="internet" name="find" value="internet">Internet 
+            <input type="radio" id="other" name="find" value="other">Other
+            <br><br> 
+        </fieldset>
+        <input type="submit" value="Send">
+    </form>
+
+    <!--Bonus: Added header row and gave it a border-->
+    <h2>Shoes for Sale</h2>
+    <table border="2">
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
+            <td>Nike</td>
+            <td>$110.00</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>Jordan</td>
+            <td>$125.00</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>Adidas</td>
+            <td>$95.00</td>
+            <td>10</td>
+        </tr>
+    </table>
+
+    <!--Creating Navigation Bar-->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!--Sections with corresponding IDs-->
+    <section id="home">
+        <h3>Home</h3>
+        <p>Welcome to our homepage!</p>
+    </section>
+
+    <section id="about">
+        <h3>About Us</h3>
+        <p>We are an honest and family owned business!</p>
+    </section>
+
+    <section id="contact">
+        <h3>Contact</h3>
+        <p>Call us now at 1-234-5678!</p>
+    </section>
+    <div class="rounded-image">
+        <img src="data:image/jpeg;base64,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" alt="Coding Temple" width="300" height="200">
+    </div>
+
+</body>
+</html>
